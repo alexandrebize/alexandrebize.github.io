@@ -4,12 +4,12 @@ $(window).load(function(){
                     opacity : 0.1,
                     translateY: "-80px"
                 }, {
-                    duration: 400,
+                    duration: 300,
                     complete: function(){
                     $('#hola').velocity({
                     translateY : "-100%"
                 }, {
-                    duration: 1000,
+                    duration: 6000,
                     easing: [0.7,0,0.3,1],
                     complete: function(){
                         $('.home').addClass('animate-border divide');
@@ -17,5 +17,5 @@ $(window).load(function(){
                 })  
                     }
                 })
-            },1000)
+            },100)
         })

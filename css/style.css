@@ -1229,6 +1229,12 @@ Andy home page
     height: 400px;
 }
 
+.workpic4 {
+    width: 100%;
+    float: none;
+    height: 400px;
+}
+
 .aboot {
     position: relative;
     padding-bottom: 10%;
@@ -1270,6 +1276,11 @@ Andy home page
 }
 
 .work3 {
+    padding: 0;
+    position: relative;
+}
+
+.work4 {
     padding: 0;
     position: relative;
 }
@@ -2166,12 +2177,13 @@ input[type=submit]:hover {
     background-color: #1a202b;
     position: fixed;
     z-index: 999;
+    margin: auto;
 }
 
 #preloader {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 300px;
+    height: 300px;
     top: 50%;
     margin: -40px auto 0;
     -webkit-animation: spin-1 2s infinite linear;
@@ -2397,6 +2409,14 @@ Blob
 }
 
 .homework3 {
+    position: absolute;
+    width: 120%;
+    top: 20%;
+    left: -10%;
+    z-index: 100;
+}
+
+.homework4 {
     position: absolute;
     width: 120%;
     top: 20%;
@@ -2712,9 +2732,8 @@ main .cd-main-content.cd-contact {
     transition: transform 0.8s 0.8s ease-in;
 }
 
-#south_korea {
-    padding: 50px;
-    background: red;
+#poitiers {
+    font-size: 5em;
 }
 
 /* -------------------------------- 
@@ -3033,8 +3052,8 @@ QUERY 650px
 
     #preloader {
         position: relative;
-        width: 100px;
-        height: 100px;
+        width: 300px;
+        height: 300px;
         top: 50%;
         margin: -50px auto 0;
         -webkit-animation: spin-1 2s infinite linear;
@@ -4457,4 +4476,9 @@ a:hover {
 
 .worktext a {
     font-size: 3em;
+}
+
+.pdfobject-container {
+    height: 30rem;
+    border: 1rem solid rgba(0,0,0,.1);
 }
