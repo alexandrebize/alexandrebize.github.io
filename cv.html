@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PDF Viewer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/AB-500.ico">
+        <!---— facebook open graph tags ---->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://alexandrebize.github.io/">
+        <meta property="og:title" content="Alexandre Bize Portfolio">
+        <meta property="og:description" content="The portfolio of Alexandre BIZE. IT Technician, Python coder & Half-Korean.">
+        <!---— twitter card tags additive with the og: tags ---->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:domain" value="alexandrebize.github.io">
+        <meta name="twitter:title" value="Alexandre Bize Portfolio">
+        <meta name="twitter:description" value="The portfolio of Alexandre BIZE. IT Technician, Python coder & Half-Korean.">
+        <meta name="twitter:url" value="http://www.alexandrebize.github.io/">
+        <meta name="description" content="Alexandre BIZE - IT Technician, Python coder & Half-Korean - Busan, South Korea.">
+        <meta name="keywords" content="Alexandre Bize, alexandre bize, alexandre bize portfolio, alexandre bize python, IT Technician Seoul, IT Technician Korea">
+        <title>CV - Alexandre BIZE - Half-Korean, IT Technician & Python coder - Busan, South Korea</title>
+        <link rel="stylesheet" href="css/reset.css"> 
+        <!-- CSS reset -->
+        <link rel="stylesheet" href="css/cv-style.css"> 
     </head>
     <body>
-        <div id="adobe-dc-view" style="height: 3508px; width: 500px; margin: auto;"></div>
-        <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
-        <script type="text/javascript">
-  document.addEventListener("adobe_dc_view_sdk.ready", function(){
-    var adobeDCView = new AdobeDC.View({clientId: "c2df04a287204967a4d4dd610843d057", divId: "adobe-dc-view"});
-    adobeDCView.previewFile({
-      content:{ location:
-        { url: "pdf/cv1.pdf"}},
-      metaData:{fileName: "cv1.pdf"}
-    },
-    {
-      embedMode: "SIZED_CONTAINER"
-    });
-  });
-</script>
+        <div class="imgbox">
+            <img class="center-fit" src="images/CV-1000.jpg"/>
+        </div>
     </body>
 </html>
