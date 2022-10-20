@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #273040;
+    position: relative;
 }
 
 .imgbox {
@@ -13,4 +14,240 @@
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
+    display: block;
+}
+
+.image-center {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    display: block;
+}
+
+.legendage {
+    position: absolute;
+    left: -15%;
+    top: 14%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendworkage {
+    position: absolute;
+    left: 20%;
+    top: 14%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendbusan {
+    position: absolute;
+    left: 15%;
+    top: 21%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legenddrivinglicence {
+    position: absolute;
+    left: 0%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendclients {
+    position: absolute;
+    left: -11%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendprinters {
+    position: absolute;
+    left: 17%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendcables {
+    position: absolute;
+    left: -2%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendgoogle {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legenduniv {
+    position: absolute;
+    left: 10%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendrestaurant {
+    position: absolute;
+    left: -15%;
+    bottom: 0vw;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendskills {
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendwork1 {
+    position: absolute;
+    right: -5%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendwork2 {
+    position: absolute;
+    right: -5%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendstudy1 {
+    position: absolute;
+    right: -5%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendstudy2 {
+    position: absolute;
+    right: -5%;
+    top: 68%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendstudy3 {
+    position: absolute;
+    right: -5%;
+    top: 79%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendfrench {
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendenglish {
+    position: absolute;
+    left: 65%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
+}
+
+.legendkorean {
+    position: absolute;
+    right: -25%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: clamp(50%, 0.5rem + 5vw, 15px);
 }
