@@ -22,6 +22,7 @@
     max-height: 100vh;
     margin: auto;
     display: block;
+    z-index: 0;
 }
 
 .legendage {
@@ -34,6 +35,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendworkage {
@@ -46,6 +48,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendbusan {
@@ -58,6 +61,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legenddrivinglicence {
@@ -70,6 +74,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendclients {
@@ -82,6 +87,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendprinters {
@@ -94,6 +100,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendcables {
@@ -106,6 +113,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendgoogle {
@@ -118,6 +126,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legenduniv {
@@ -130,6 +139,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendrestaurant {
@@ -142,6 +152,7 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendskills {
@@ -154,11 +165,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendwork1 {
     position: absolute;
-    right: -5%;
+    right: 15%;
     top: 30%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -166,11 +178,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendwork2 {
     position: absolute;
-    right: -5%;
+    right: 15%;
     top: 43%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -178,11 +191,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendstudy1 {
     position: absolute;
-    right: -5%;
+    right: 15%;
     top: 57%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -190,11 +204,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendstudy2 {
     position: absolute;
-    right: -5%;
+    right: 15%;
     top: 68%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -202,11 +217,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendstudy3 {
     position: absolute;
-    right: -5%;
+    right: 15%;
     top: 79%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -214,11 +230,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendfrench {
     position: absolute;
-    left: 40%;
+    left: 47%;
     top: 90%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -226,11 +243,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendenglish {
     position: absolute;
-    left: 65%;
+    left: 66%;
     top: 90%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -238,11 +256,12 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
 
 .legendkorean {
     position: absolute;
-    right: -25%;
+    right: -5%;
     top: 90%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -250,4 +269,5 @@
     padding: 1vw;
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
+    z-index: 1;
 }
