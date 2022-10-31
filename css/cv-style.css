@@ -26,6 +26,7 @@
 }
 
 .legendage {
+    display: none;
     position: absolute;
     left: 13%;
     top: 9%;
@@ -39,6 +40,7 @@
 }
 
 .legendworkage {
+    display: none;
     position: absolute;
     left: 17%;
     top: 14%;
@@ -52,6 +54,7 @@
 }
 
 .legendbusan {
+    display: none;
     position: absolute;
     left: 15%;
     top: 21%;
@@ -65,6 +68,7 @@
 }
 
 .legenddrivinglicence {
+    display: none;
     position: absolute;
     left: 18%;
     top: 32%;
@@ -78,6 +82,7 @@
 }
 
 .legendclients {
+    display: none;
     position: absolute;
     left: 15%;
     top: 40%;
@@ -91,9 +96,10 @@
 }
 
 .legendprinters {
+    display: none;
     position: absolute;
-    left: 17%;
-    top: 43%;
+    left: 14%;
+    top: 42%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -104,9 +110,10 @@
 }
 
 .legendcables {
+    display: none;
     position: absolute;
-    left: 17%;
-    top: 50%;
+    left: 14%;
+    top: 51%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -117,6 +124,7 @@
 }
 
 .legendpython {
+    display: none;
     position: absolute;
     left: 17.5%;
     top: 70%;
@@ -130,6 +138,7 @@
 }
 
 .legenduniv {
+    display: none;
     position: absolute;
     left: 13%;
     top: 85%;
@@ -143,6 +152,7 @@
 }
 
 .legendrestaurant {
+    display: none;
     position: absolute;
     left: 15%;
     bottom: -2vw;
@@ -156,6 +166,7 @@
 }
 
 .legendskills {
+    display: none;
     position: absolute;
     left: 65%;
     top: 16.5%;
@@ -169,6 +180,7 @@
 }
 
 .legendwork1 {
+    display: none;
     position: absolute;
     right: 15%;
     top: 32%;
@@ -182,6 +194,7 @@
 }
 
 .legendwork2 {
+    display: none;
     position: absolute;
     right: 15%;
     top: 43%;
@@ -195,6 +208,7 @@
 }
 
 .legendstudy1 {
+    display: none;
     position: absolute;
     right: 15%;
     top: 59%;
@@ -208,6 +222,7 @@
 }
 
 .legendstudy2 {
+    display: none;
     position: absolute;
     right: 15%;
     top: 68%;
@@ -221,6 +236,7 @@
 }
 
 .legendstudy3 {
+    display: none;
     position: absolute;
     right: 15%;
     top: 77%;
@@ -234,6 +250,7 @@
 }
 
 .legendfrench {
+    display: none;
     position: absolute;
     left: 47%;
     top: 90%;
@@ -247,6 +264,7 @@
 }
 
 .legendenglish {
+    display: none;
     position: absolute;
     left: 66%;
     top: 90%;
@@ -259,7 +277,9 @@
     z-index: 1;
 }
 
+/* HOVER */
 .legendkorean {
+    display: none;
     position: absolute;
     right: -5%;
     top: 90%;
@@ -270,4 +290,386 @@
     border-radius: 5px;
     font-size: clamp(50%, 0.5rem + 5vw, 15px);
     z-index: 1;
+}
+
+.legendage-hover {
+    height: calc(100% - 88.6%);
+    background: #ff8800;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legendage-hover:hover ~ .legendage {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendage-hover2 {
+    height: calc(100% - 95.2%);
+    background: #580;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 88.5%);
+    left: 0px;
+    width: calc(100% - 90.1%);
+}
+
+.legendage-hover2:hover ~ .legendage {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendworkage-hover {
+    height: calc(100% - 95.2%);
+    background: #578952;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 88.5%);
+    left: calc(100% - 90.2%);
+    width: calc(100% - 82.5%);
+}
+
+.legendworkage-hover:hover ~ .legendworkage {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendbusan-hover {
+    height: calc(100% - 94%);
+    background: #982710;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 83%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legendbusan-hover:hover ~ .legendbusan {
+    display: block;
+}
+
+/* ------------------------------ */
+.legenddrivinglicence-hover {
+    height: calc(100% - 96%);
+    background: #215015;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 70%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legenddrivinglicence-hover:hover ~ .legenddrivinglicence {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendclients-hover {
+    height: calc(100% - 96.8%);
+    background: #272015;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 62.8%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legendclients-hover:hover ~ .legendclients {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendprinters-hover {
+    height: calc(100% - 96.8%);
+    background: #572015;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 59.6%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legendprinters-hover:hover ~ .legendprinters {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendcables-hover {
+    height: calc(100% - 96.8%);
+    background: #155005;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 56.4%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legendcables-hover:hover ~ .legendcables {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendpython-hover {
+    height: calc(100% - 93.5%);
+    background: #455005;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 33%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legendpython-hover:hover ~ .legendpython {
+    display: block;
+}
+
+/* ------------------------------ */
+.legenduniv-hover {
+    height: calc(100% - 93.5%);
+    background: #872101;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 16.6%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legenduniv-hover:hover ~ .legenduniv {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendrestaurant-hover {
+    height: calc(100% - 93.5%);
+    background: #275291;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 9.5%);
+    left: 0px;
+    width: calc(100% - 72.8%);
+}
+
+.legendrestaurant-hover:hover ~ .legendrestaurant {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendskills-hover {
+    height: calc(100% - 88%);
+    background: #484791;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 90.5%);
+    left: calc(100% - 67%);
+    width: calc(100% - 36%);
+}
+
+.legendskills-hover:hover ~ .legendskills {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendwork1-hover {
+    height: calc(100% - 88%);
+    background: #785791;
+    z-index: 0;
+    position: absolute;
+    top: calc(100% - 75%);
+    left: calc(100% - 67%);
+    width: calc(100% - 36%);
+}
+
+.legendwork1-hover:hover ~ .legendwork1 {
+    display: block;
+    z-index: 555555 !important;
+}
+
+/* ------------------------------ */
+.legendwork2-hover {
+    height: calc(100% - 88%);
+    background: #878252;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 62%);
+    left: calc(100% - 67%);
+    width: calc(100% - 36%);
+}
+
+.legendwork2-hover:hover ~ .legendwork2 {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendstudy1-hover {
+    height: calc(100% - 92%);
+    background: #785252;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 45%);
+    left: calc(100% - 67%);
+    width: calc(100% - 36%);
+}
+
+.legendstudy1-hover:hover ~ .legendstudy1 {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendstudy2-hover {
+    height: calc(100% - 92%);
+    background: #785252;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 35.5%);
+    left: calc(100% - 67%);
+    width: calc(100% - 36%);
+}
+
+.legendstudy2-hover:hover ~ .legendstudy2 {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendstudy3-hover {
+    height: calc(100% - 92%);
+    background: #265752;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 26%);
+    left: calc(100% - 67%);
+    width: calc(100% - 36%);
+}
+
+.legendstudy3-hover:hover ~ .legendstudy3 {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendfrench-hover {
+    height: calc(100% - 92.5%);
+    background: #265752;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 14%);
+    left: calc(100% - 62%);
+    width: calc(100% - 84%);
+}
+
+.legendfrench-hover:hover ~ .legendfrench {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendenglish-hover {
+    height: calc(100% - 92.5%);
+    background: #885752;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 14%);
+    left: calc(100% - 42%);
+    width: calc(100% - 84%);
+}
+
+.legendenglish-hover:hover ~ .legendenglish {
+    display: block;
+}
+
+/* ------------------------------ */
+.legendkorean-hover {
+    height: calc(100% - 92.5%);
+    background: #485752;
+    z-index: 1;
+    position: absolute;
+    top: calc(100% - 14%);
+    left: calc(100% - 22%);
+    width: calc(100% - 84%);
+}
+
+.legendkorean-hover:hover ~ .legendkorean {
+    display: block;
+}
+
+@media only screen and (max-width: 550px) {
+    .legendage-hover:active ~ .legendage {
+        display: block;
+    }
+
+    .legendage-hover2:active ~ .legendage {
+        display: block;
+    }
+
+    .legendworkage-hover:active ~ .legendworkage {
+        display: block;
+    }
+
+    .legendbusan-hover:active ~ .legendbusan {
+        display: block;
+    }
+
+    .legenddrivinglicence-hover:active ~ .legenddrivinglicence {
+        display: block;
+    }
+
+    .legendclients-hover:active ~ .legendclients {
+        display: block;
+    }
+
+    .legendprinters-hover:active ~ .legendprinters {
+        display: block;
+    }
+
+    .legendcables-hover:active ~ .legendcables {
+        display: block;
+    }
+
+    .legendpython-hover:active ~ .legendpython {
+        display: block;
+    }
+
+    .legenduniv-hover:active ~ .legenduniv {
+        display: block;
+    }
+
+    .legendrestaurant-hover:active ~ .legendrestaurant {
+        display: block;
+    }
+
+    .legendstudy1-hover:active ~ .legendstudy1 {
+        display: block;
+    }
+
+    .legendstudy2-hover:active ~ .legendstudy2 {
+        display: block;
+    }
+
+    .legendstudy3-hover:active ~ .legendstudy3 {
+        display: block;
+    }
+
+    .legendwork2-hover:active ~ .legendwork2 {
+        display: block;
+    }
+
+    .legendstudy2-hover:active ~ .legendstudy2 {
+        display: block;
+    }
+
+    .legendstudy3-hover:active ~ .legendstudy3 {
+        display: block;
+    }
+
+    .legendfrench-hover:active ~ .legendfrench {
+        display: block;
+    }
+
+    .legendenglish-hover:active ~ .legendenglish {
+        display: block;
+    }
+
+    .legendkorean-hover:active ~ .legendkorean {
+        display: block;
+    }
 }
