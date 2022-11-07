@@ -405,8 +405,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendclients-hover:active ~ .legendclients {
+div.legendclients-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendclients-hover:hover {
     display: block;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
@@ -462,8 +487,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendpython-hover:active ~ .legendpython {
+div.legendpython-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendpython-hover:hover {
     display: block;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
@@ -519,8 +569,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendskills-hover:active ~ .legendskills {
+div.legendskills-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendskills-hover:hover {
     display: block;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
@@ -538,9 +613,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendwork1-hover:active ~ .legendwork1 {
+div.legendwork1-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendwork1-hover:hover {
     display: block;
-    z-index: 555555 !important;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
@@ -558,8 +657,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendwork2-hover:active ~ .legendwork2 {
+div.legendwork2-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendwork2-hover:hover {
     display: block;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
@@ -577,8 +701,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendstudy1-hover:active ~ .legendstudy1 {
+div.legendstudy1-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendstudy1-hover:hover {
     display: block;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
@@ -596,8 +745,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendstudy2-hover:active ~ .legendstudy2 {
+div.legendstudy2-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendstudy2-hover:hover {
     display: block;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
@@ -615,8 +789,33 @@
     border: 1px solid rgba(255,136,0,0.7);
 }
 
-.legendstudy3-hover:active ~ .legendstudy3 {
+div.legendstudy3-hover a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+
+    /* No underlines on the link */
+    z-index: 10;
+
+    /* Places the link above everything else in the div */
+    background-color: #FFF;
+
+    /* Fix to make div clickable in IE */
+    opacity: 0;
+
+    /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1);
+
+    /* Fix to make div clickable in IE */
+}
+
+.legendstudy3-hover:hover {
     display: block;
+    background: rgba(255,136,0,0.5);
+    border: 1px solid rgba(255,136,0,0.9);
 }
 
 /* ------------------------------ */
