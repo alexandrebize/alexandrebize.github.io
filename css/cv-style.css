@@ -295,12 +295,12 @@
 /* ------------------------------ */
 /* ------------------------------ */
 .legendage-hover {
-    height: calc(100% - 88.6%);
+    height: calc(100% - 88.8%);
     z-index: 1;
     position: absolute;
     top: 0px;
     left: 0px;
-    width: calc(100% - 72.8%);
+    width: calc(100% - 73%);
     background: none;
     -moz-background-clip: content;
     -webkit-background-clip: content;
@@ -314,12 +314,12 @@
 
 /* ------------------------------ */
 .legendage-hover2 {
-    height: calc(100% - 95.2%);
+    height: calc(100% - 95%);
     z-index: 1;
     position: absolute;
-    top: calc(100% - 88.5%);
+    top: calc(100% - 88.7%);
     left: 0px;
-    width: calc(100% - 90.1%);
+    width: calc(100% - 90.5%);
     background: none;
     -moz-background-clip: content;
     -webkit-background-clip: content;
@@ -333,12 +333,12 @@
 
 /* ------------------------------ */
 .legendworkage-hover {
-    height: calc(100% - 95.2%);
+    height: calc(100% - 95%);
     z-index: 1;
     position: absolute;
-    top: calc(100% - 88.5%);
+    top: calc(100% - 88.7%);
     left: calc(100% - 90.2%);
-    width: calc(100% - 82.5%);
+    width: calc(100% - 83%);
     background: none;
     -moz-background-clip: content;
     -webkit-background-clip: content;
@@ -352,13 +352,13 @@
 
 /* ------------------------------ */
 .legendbusan-hover {
-    height: calc(100% - 94%);
+    height: calc(100% - 95.8%);
     background: #982710;
     z-index: 1;
     position: absolute;
-    top: calc(100% - 83%);
+    top: calc(100% - 81.5%);
     left: 0px;
-    width: calc(100% - 72.8%);
+    width: calc(100% - 73%);
     background: rgba(200, 16, 46,0.3);
     -moz-background-clip: content;
     -webkit-background-clip: content;
@@ -378,7 +378,7 @@
     position: absolute;
     top: calc(100% - 70%);
     left: 0px;
-    width: calc(100% - 72.8%);
+    width: calc(100% - 73%);
     background: rgba(15, 100, 205,0.3);
     -moz-background-clip: content;
     -webkit-background-clip: content;
@@ -436,12 +436,12 @@ div.legendclients-hover a {
 
 /* ------------------------------ */
 .legendprinters-hover {
-    height: calc(100% - 96.8%);
+    height: calc(100% - 97.5%);
     z-index: 1;
     position: absolute;
-    top: calc(100% - 59.6%);
+    top: calc(100% - 59%);
     left: 0px;
-    width: calc(100% - 72.8%);
+    width: calc(100% - 73%);
     background: rgba(15, 100, 205,0.3);
     -moz-background-clip: content;
     -webkit-background-clip: content;
@@ -455,12 +455,12 @@ div.legendclients-hover a {
 
 /* ------------------------------ */
 .legendcables-hover {
-    height: calc(100% - 96.8%);
+    height: calc(100% - 97.2%);
     z-index: 1;
     position: absolute;
     top: calc(100% - 56.4%);
     left: 0px;
-    width: calc(100% - 72.8%);
+    width: calc(100% - 73%);
     background: rgba(15, 100, 205,0.3);
     -moz-background-clip: content;
     -webkit-background-clip: content;
@@ -474,10 +474,10 @@ div.legendclients-hover a {
 
 /* ------------------------------ */
 .legendpython-hover {
-    height: calc(100% - 93.5%);
+    height: calc(100% - 94%);
     z-index: 1;
     position: absolute;
-    top: calc(100% - 33%);
+    top: calc(100% - 33.5%);
     left: 0px;
     width: calc(100% - 72.8%);
     background: rgba(255,136,0,0.3);
@@ -521,7 +521,7 @@ div.legendpython-hover a {
     height: calc(100% - 93.5%);
     z-index: 1;
     position: absolute;
-    top: calc(100% - 16.6%);
+    top: calc(100% - 17%);
     left: 0px;
     width: calc(100% - 72.8%);
     background: rgba(15, 100, 205,0.3);
@@ -537,7 +537,7 @@ div.legendpython-hover a {
 
 /* ------------------------------ */
 .legendrestaurant-hover {
-    height: calc(100% - 93.5%);
+    height: calc(100% - 94%);
     z-index: 1;
     position: absolute;
     top: calc(100% - 9.5%);
@@ -556,7 +556,7 @@ div.legendpython-hover a {
 
 /* ------------------------------ */
 .legendskills-hover {
-    height: calc(100% - 88%);
+    height: calc(100% - 88.5%);
     z-index: 1;
     position: absolute;
     top: calc(100% - 90.5%);
@@ -600,10 +600,10 @@ div.legendskills-hover a {
 
 /* ------------------------------ */
 .legendwork1-hover {
-    height: calc(100% - 88%);
+    height: calc(100% - 89%);
     z-index: 0;
     position: absolute;
-    top: calc(100% - 75%);
+    top: calc(100% - 74%);
     left: calc(100% - 67%);
     width: calc(100% - 36%);
     background: rgba(255,136,0,0.3);
@@ -644,7 +644,7 @@ div.legendwork1-hover a {
 
 /* ------------------------------ */
 .legendwork2-hover {
-    height: calc(100% - 88%);
+    height: calc(100% - 89.3%);
     z-index: 1;
     position: absolute;
     top: calc(100% - 62%);
@@ -776,7 +776,7 @@ div.legendstudy2-hover a {
 
 /* ------------------------------ */
 .legendstudy3-hover {
-    height: calc(100% - 92%);
+    height: calc(100% - 92.8%);
     z-index: 1;
     position: absolute;
     top: calc(100% - 26%);
@@ -824,9 +824,9 @@ div.legendstudy3-hover a {
     z-index: 1;
     position: absolute;
     top: calc(100% - 14%);
-    left: calc(100% - 62%);
+    left: calc(100% - 61.5%);
     width: calc(100% - 84%);
-    background: rgba(0, 38, 84,0.7);
+    background: rgba(0, 38, 84,0.3);
     -moz-background-clip: content;
     -webkit-background-clip: content;
     background-clip: content-box;
@@ -845,7 +845,7 @@ div.legendstudy3-hover a {
     top: calc(100% - 14%);
     left: calc(100% - 42%);
     width: calc(100% - 84%);
-    background: rgba(200, 16, 46,0.7);
+    background: rgba(200, 16, 46,0.3);
     -moz-background-clip: content;
     -webkit-background-clip: content;
     background-clip: content-box;
@@ -862,9 +862,9 @@ div.legendstudy3-hover a {
     z-index: 1;
     position: absolute;
     top: calc(100% - 14%);
-    left: calc(100% - 22%);
+    left: calc(100% - 21.5%);
     width: calc(100% - 84%);
-    background: rgba(15, 100, 205,0.7);
+    background: rgba(15, 100, 205,0.3);
     -moz-background-clip: content;
     -webkit-background-clip: content;
     background-clip: content-box;
