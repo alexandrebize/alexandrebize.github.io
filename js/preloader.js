@@ -10,12 +10,11 @@ $(window).load(function(){
                     translateY : "-100%"
                 }, {
                     duration: 6000,
-                    easing: [0.7,0,0.3,1],
                     complete: function(){
                         $('.home').addClass('animate-border divide');
                     }
                 })  
                     }
                 })
-            },100)
+            },0)
         })
