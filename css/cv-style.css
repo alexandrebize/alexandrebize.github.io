@@ -912,84 +912,13 @@ div.legendstudy3-hover a {
 }
 
 @media only screen and (max-width: 550px) {
-    .legendage-hover:active ~ .legendage {
-        display: block;
+    .legends {
+        font-size: clamp(50%, 0.5rem + 5vw, 5px);
     }
 
-    .legendage-hover2:active ~ .legendage {
-        display: block;
-    }
-
-    .legendworkage-hover:active ~ .legendworkage {
-        display: block;
-    }
-
-    .legendbusan-hover:active ~ .legendbusan {
-        display: block;
-    }
-
-    .legenddrivinglicence-hover:active ~ .legenddrivinglicence {
-        display: block;
-    }
-
-    .legendclients-hover:active ~ .legendclients {
-        display: block;
-    }
-
-    .legendprinters-hover:active ~ .legendprinters {
-        display: block;
-    }
-
-    .legendcables-hover:active ~ .legendcables {
-        display: block;
-    }
-
-    .legendpython-hover:active ~ .legendpython {
-        display: block;
-    }
-
-    .legenduniv-hover:active ~ .legenduniv {
-        display: block;
-    }
-
-    .legendrestaurant-hover:active ~ .legendrestaurant {
-        display: block;
-    }
-
-    .legendstudy1-hover:active ~ .legendstudy1 {
-        display: block;
-    }
-
-    .legendstudy2-hover:active ~ .legendstudy2 {
-        display: block;
-    }
-
-    .legendstudy3-hover:active ~ .legendstudy3 {
-        display: block;
-    }
-
-    .legendwork2-hover:active ~ .legendwork2 {
-        display: block;
-    }
-
-    .legendstudy2-hover:active ~ .legendstudy2 {
-        display: block;
-    }
-
-    .legendstudy3-hover:active ~ .legendstudy3 {
-        display: block;
-    }
-
-    .legendfrench-hover:active ~ .legendfrench {
-        display: block;
-    }
-
-    .legendenglish-hover:active ~ .legendenglish {
-        display: block;
-    }
-
-    .legendkorean-hover:active ~ .legendkorean {
-        display: block;
+    .legends-title {
+        font-size: clamp(50%, 0.5rem + 5vw, 10px);
+        font-family: "Montserrat Alternates bold";
     }
 }
 
