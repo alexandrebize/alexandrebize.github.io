@@ -923,13 +923,6 @@ div.legendstudy3-hover a {
 }
 
 @font-face {
-    font-family: 'Montserrat Alternates Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Montserrat Alternates Regular'), url('./font/MontserratAlternates-Regular.woff') format('woff');
-}
-
-@font-face {
     font-family: 'Montserrat Alternates Light';
     font-style: normal;
     font-weight: normal;
@@ -944,36 +937,8 @@ div.legendstudy3-hover a {
 }
 
 @font-face {
-    font-family: 'Montserrat Alternates SemiBold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Montserrat Alternates SemiBold'), url('./font/MontserratAlternates-SemiBold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Montserrat Alternates SemiBold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Montserrat Alternates SemiBold Italic'), url('./font/MontserratAlternates-SemiBoldItalic.woff') format('woff');
-}
-
-@font-face {
     font-family: 'Montserrat Alternates Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Montserrat Alternates Bold'), url('./font/MontserratAlternates-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Montserrat Alternates ExtraBold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Montserrat Alternates ExtraBold'), url('./font/MontserratAlternates-ExtraBold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Montserrat Alternates Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Montserrat Alternates Black'), url('./font/MontserratAlternates-Black.woff') format('woff');
 }
